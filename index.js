@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
     res.send("hello");
 });
 
-//app.listen(3000, 'aws-prod-blu-051.cloudapp.net./40.76.192.15' ()=>{console.log("listening on 3000")});
+app.listen('/');
