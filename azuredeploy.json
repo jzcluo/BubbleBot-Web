@@ -35,7 +35,7 @@
       "type": "Microsoft.Web/serverFarms",
       "location": "[parameters('siteLocation')]",
       "properties": {
-        
+
       },
       "sku": {
         "name": "[parameters('sku')]",
@@ -84,10 +84,6 @@
           "dependsOn": [
             "[concat('Microsoft.Web/sites/', parameters('siteName'))]"
           ],
-          "properties": {
-           
-            "phpVersion": "5.5"
-          }
         }
       ]
     }
